@@ -4,7 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+For development only
+
+1. Run `nodemon server/index.js` for the Express server that handles receiving the API calls. The file will automatically run again if you make any changes.
+
+1. In a different terminal, run `npm run dev` for a dev server with configured proxy to the API. Navigate to `http://localhost:4200/` for the app. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
